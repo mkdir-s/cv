@@ -1,0 +1,230 @@
+@media (max-width: 920px) {
+  .intro__wrapper {
+    flex-wrap: wrap;
+  }
+  .intro__inform {
+    margin: 0 auto 30px;
+  }
+  .intro__img {
+    margin: 0 auto;
+  }
+  .intro__inform-title {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+  .about__wrapper {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .about__left {
+    margin: 0 auto 30px;
+  }
+  .about__left-suptitle {
+    margin: 0 auto;
+  }
+  .awards__item-wrapper {
+    flex-wrap: wrap;
+  }
+  .awards-left {
+    margin: 0 auto 20px;
+  }
+  .awards-right {
+    margin: 0 auto;
+  }
+  .portfolio__item-wrapper {
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .portfolio__item-img {
+    margin: 0 auto;
+  }
+  .portfolio__item + .portfolio__item{
+    margin-top: 20px;
+  }
+  .portfolio-inform__status {
+    margin-bottom: 5px;
+  }
+  .portfolio-inform__title {
+    margin-bottom: 10px;
+  }
+  .portfolio-inform {
+    margin: 0 auto;
+  }
+  .contacts__wrapper {
+    flex-wrap: wrap;
+  }
+  .contacts__left-title {
+    margin-bottom: 30px;
+  }
+  .contacts__right-button {
+    display: block;
+  }
+  .contacts__left {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 780px) {
+  .intro__banner {
+    display: none;
+  }
+  .about__items {
+    flex-wrap: wrap;
+  }
+  .about__item {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .about__right-wrapper {
+    flex-wrap: wrap;
+  }
+  .about__right-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .awards-left {
+    flex-wrap: wrap;
+  }
+  .awards-left__num {
+    margin: 0 auto 10px;
+  }
+  .portfolio .container {
+    padding: 0;
+  }
+  .intro__img img {
+    width: 90%;
+    object-fit: cover;
+  }
+  .contacts .container {
+    padding: 0 10px;
+  }
+  .about .container {
+    padding: 0 10px;
+  }
+  .contacts__right-input {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .contacts__right-button {
+    width: 100%;
+  }
+  .contacts__wrapper {
+    justify-content: center;
+  }
+}
+@media (max-width: 550px) {
+  .header__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header-nav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header-nav__menu {
+    flex-direction: column;
+  }
+  .header-nav__menu-item {
+    margin-left: 0 !important;
+  }
+  .header-nav__menu-item + .header-nav__menu-item {
+    margin-top: 20px;
+  }
+  .header__button {
+    margin: 0 auto;
+  }
+  .about__left-title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .about__right-suptitle {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  .about__right-text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .about__item {
+    padding: 10px 30px;
+  }
+  .about__wrapper {
+    margin-bottom: 40px;
+  }
+  .about__item-subtitle {
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .about__item-title {
+    font-size: 40px;
+    line-height: 47px;
+  }
+  .awards-left__inform-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .awards-left__inform-subtitle {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .awards-right__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .awards .container {
+    padding: 0 40px;
+  }
+  .portfolio__item-img img {
+    width: 75%;
+    object-fit: cover;
+  }
+  .footer-top__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-bottom__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-bottom__copy {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .footer-top__img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .about {
+    margin-bottom: 30px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .intro__inform-button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .about__item {
+    padding: 10px 10px;
+  }
+  .awards__item {
+    padding: 15px 19px;
+  }
+  .portfolio-inform__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}

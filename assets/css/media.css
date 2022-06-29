@@ -211,6 +211,10 @@
   .swiper-button-next {
     display: none;
   }
+  .intro__inform-button {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 400px) {
   .intro__inform-button {

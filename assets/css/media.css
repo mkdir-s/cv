@@ -162,12 +162,16 @@
   .header-nav__menu-item + .header-nav__menu-item {
     margin-top: 20px;
   }
+  .header__logo {
+    margin-right: 40px;
+  }
   .header__burger {
     display: block;
     position: absolute;
     background-color: transparent;
     top: 40px;
     right: 40px;
+    padding: 15px;
   }
   .swiper-slide__item-img {
     width: 100%;
